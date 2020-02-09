@@ -1,20 +1,18 @@
-import {
-  ADD,
- 
-  DELETE
-} from '../constants'
+import { ADD, DELETE } from "../constants";
 
-
-export const add = (data) => {
+export const add = (data, backgroundcolor, importance) => {
   return {
     data,
-    type: ADD
-  }
-}
 
-export const del = (id) => {
+    backgroundcolor,
+    importance,
+    type: ADD
+  };
+};
+
+export const del = id => {
   return {
     id,
     type: DELETE
-  }
-}
+  };
+};

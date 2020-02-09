@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import todos from './counter'
+import todos from './todos'
 export default combineReducers({
 todos 
 })

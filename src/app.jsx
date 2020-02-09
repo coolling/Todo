@@ -19,7 +19,13 @@ class App extends Component {
 
   config = {
     pages: [
-      'pages/index/index'
+      'pages/index/index',
+      'pages/addtodo/add',
+   
+      'pages/content/content',
+      
+    
+    
     ],
     window: {
       backgroundTextStyle: 'light',

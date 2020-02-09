@@ -1,0 +1,34 @@
+.style {
+  background-color: rgb(250, 215, 221);
+  display: flex;
+}
+
+.save {
+  width: 25%;
+  text-align: center;
+
+  color: rgb(247, 143, 95);
+  position: relative;
+  top: 10PX;
+  left: 90PX;
+}
+.color {
+  width: 15PX;
+  height: 15PX;
+  margin: 8PX;
+}
+.colors {
+  display: flex;
+
+  align-items: center;
+}
+.write {
+  background-color: rgb(190, 247, 188);
+  width: 100%;
+  min-height: 800PX;
+  font-family: Sans-serif;
+}
+.importance {
+  margin: 10PX;
+  padding-left: 20PX;
+}

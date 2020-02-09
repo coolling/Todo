@@ -1,15 +1,37 @@
 .indextodos{
   flex-direction: column;
   width: 100%;
-  .add_wrap{
-    display: flex;
-.add{
-
-background-color: aqua
-}
+  
+  .somewords{
+    text-align: center;
+    font-size: 30PX;
   }
   .todos_item{
     display: flex;
-
+    border-radius: 5PX;
+    align-items: center;
+    height: 35PX;
+    .item{
+      width: 88%;
+      padding: 5PX;
+      .todotext{
+        overflow: hidden;
+      }
+ 
+ 
+    }
+    .del{
+      width: 20PX;
+      height: 25PX;
+      
+    }
+    margin: 20PX;
+  }
+  .add{
+    width: 50PX;
+    height: 50PX;
+    position: fixed;
+    bottom: 20PX;
+    right: 20PX;
   }
 }
